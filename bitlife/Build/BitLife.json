@@ -1,0 +1,20 @@
+{
+  "companyName": "3kh0.github.io",
+  "productName": "BitLife",
+  "productVersion": "1.0",
+  "dataUrl": "https://cdn.jsdelivr.net/gh/wgfwpnew/assets@main/bitlife/Build/BitLife.data.unityweb",
+  "wasmCodeUrl": "https://cdn.jsdelivr.net/gh/wgfwpnew/assets@main/bitlife/Build/BitLife.wasm.code.unityweb",
+  "wasmFrameworkUrl": "https://cdn.jsdelivr.net/gh/wgfwpnew/assets@main/bitlife/Build/BitLife.wasm.framework.unityweb",
+  "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#231F20",
+  "cacheControl": {
+    "default": "must-revalidate"
+  },
+  "developmentBuild": false,
+  "multithreading": false,
+  "unityVersion": "2019.4.21f1"
+}

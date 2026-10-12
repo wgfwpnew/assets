@@ -3147,16 +3147,7 @@ function unityFramework(Module) {
             unlockTimer: _unlockTimer,
             timeShowInter: _timeShowInter
         };
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id))
-                return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "";
-            fjs.parentNode.insertBefore(js, fjs)
-        }
-        )(document, "script", "gmsoft-jssdk");
+
         // console.log("%c %c %c GMSOFT SDK | Version: 3.2 %c %c %c", "background: #9854d8", "background: #6c2ca7", "color: #fff; background: #450f78;", "background: #6c2ca7", "background: #9854d8", "background: #ffffff")
     }
     function _SDK_InitParam() {

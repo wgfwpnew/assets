@@ -2950,10 +2950,14 @@ function unityFramework(Module) {
         }
     }
     function _LogEvent(eventName) {
+        if (typeof firebase === "undefined" || !firebase.analytics)
+            return;
         var event_name = UTF8ToString(eventName);
         firebase.analytics().logEvent(event_name)
     }
     function _LogEventParameter(eventName, eventParameter) {
+        if (typeof firebase === "undefined" || !firebase.analytics)
+            return;
         var event_name = UTF8ToString(eventName);
         var event_param = JSON.parse(UTF8ToString(eventParameter));
         firebase.analytics().logEvent(event_name, event_param)
